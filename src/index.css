@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f3f4f6;
+  font-family: Arial, sans-serif;
+}
+
+.page-content {
+  padding: 30px;
+  padding-bottom: 100px;
+}

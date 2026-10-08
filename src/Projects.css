@@ -1,0 +1,263 @@
+.projects-page {
+  min-height: 100vh;
+
+  padding: 70px 8% 120px;
+
+  background: #f8fafc;
+}
+
+
+/* HEADER */
+
+.projects-header {
+  text-align: center;
+
+  max-width: 750px;
+
+  margin: 0 auto 60px;
+}
+
+.projects-header > p:first-child {
+  color: #2563eb;
+
+  font-size: 14px;
+
+  font-weight: bold;
+
+  letter-spacing: 3px;
+}
+
+.projects-header h1 {
+  font-size: 50px;
+
+  color: #111827;
+
+  margin: 10px 0;
+}
+
+.projects-header h1 span {
+  color: #2563eb;
+}
+
+.projects-subtitle {
+  color: #6b7280;
+
+  font-size: 17px;
+
+  line-height: 1.6;
+}
+
+
+/* PROJECT CONTAINER */
+
+.projects-container {
+  max-width: 1100px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 30px;
+}
+
+
+/* CARD */
+
+.project-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s;
+
+  display: flex;
+
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
+
+
+/* ICON */
+
+.project-icon {
+  width: 65px;
+  height: 65px;
+
+  background: #eff6ff;
+
+  color: #2563eb;
+
+  border-radius: 15px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  font-size: 30px;
+
+  margin-bottom: 20px;
+}
+
+
+/* CATEGORY */
+
+.project-category {
+  color: #2563eb;
+
+  font-size: 13px;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1px;
+
+  margin-bottom: 10px;
+}
+
+
+/* TITLE */
+
+.project-card h2 {
+  color: #111827;
+
+  font-size: 25px;
+
+  margin-bottom: 15px;
+}
+
+
+/* DESCRIPTION */
+
+.project-description {
+  color: #6b7280;
+
+  line-height: 1.7;
+
+  font-size: 15px;
+
+  min-height: 80px;
+}
+
+
+/* TECHNOLOGIES */
+
+.technologies {
+  margin-top: 20px;
+
+  padding: 10px;
+
+  background: #f3f4f6;
+
+  border-radius: 8px;
+
+  color: #374151;
+
+  font-size: 13px;
+}
+
+
+/* BUTTONS */
+
+.project-buttons {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 25px;
+}
+
+.project-buttons a {
+  flex: 1;
+
+  padding: 11px 10px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  gap: 7px;
+
+  font-size: 14px;
+
+  transition: 0.3s;
+}
+
+
+/* GITHUB */
+
+.github-btn {
+  background: #111827;
+
+  color: white;
+}
+
+.github-btn:hover {
+  background: #000;
+}
+
+
+/* DEMO */
+
+.demo-btn {
+  background: #2563eb;
+
+  color: white;
+}
+
+.demo-btn:hover {
+  background: #1d4ed8;
+}
+
+
+/* TABLET */
+
+@media (max-width: 950px) {
+
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 650px) {
+
+  .projects-page {
+    padding: 50px 20px 110px;
+  }
+
+  .projects-header h1 {
+    font-size: 38px;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .project-card {
+    padding: 25px;
+  }
+
+}
