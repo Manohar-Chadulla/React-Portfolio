@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import BottomNavbar from "./BottomNavbar";
 
@@ -35,7 +36,7 @@ import Contact from "./Contact";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <div className="page-content">
 
@@ -51,7 +52,7 @@ function App() {
 
       <BottomNavbar />
 
-    </BrowserRouter>
+     </HashRouter>
   );
 }
 
