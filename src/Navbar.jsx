@@ -17,7 +17,7 @@ function Navbar() {
       {/* Logo */}
       <div className="navbar-logo">
         <span>CM</span>
-        <h2>Manohar</h2>
+        <h2>Manohar Chadulla</h2>
       </div>
 
       {/* Menu */}
