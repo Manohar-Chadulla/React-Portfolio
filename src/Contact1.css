@@ -9,6 +9,12 @@
 
   
 }
+.contact-container .heading2{
+  padding-bottom: 20px;
+}
+h2{
+  color:#c9038d
+}
 
 .form-group {
   margin-bottom: 20px;
@@ -62,7 +68,7 @@
   padding: 14px;
   border: none;
   border-radius: 10px;
-  background: #2563eb;
+  background: #c9038d;
   color: white;
   font-size: 16px;
   font-weight: 600;
